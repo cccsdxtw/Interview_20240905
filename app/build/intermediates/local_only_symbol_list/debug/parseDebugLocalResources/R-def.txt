@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color DarkGrey
+color black
+color blue
+color brown
+color green
+color lightBlue
+color lightGray
+color lightGrayLittle
+color purple_200
+color purple_500
+color purple_700
+color red
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap exchange_rate
+mipmap exchange_rate_selected
+mipmap flights
+mipmap flights_selected
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap landing
+mipmap landing_selected
+mipmap take_off
+mipmap take_off_selected
+string app_name
+string test
+style Theme.MyApplication
+xml backup_rules
+xml data_extraction_rules

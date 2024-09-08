@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hi.myapplication.app-debug-71:/mipmap-hdpi_take_off.png.flat",
+        "source": "com.hi.myapplication.app-main-73:/mipmap-hdpi/take_off.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-hdpi_flights.png.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-hdpi/flights.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/drawable_exchange_rate_selected.png.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/drawable/exchange_rate_selected.png"
+    },
+    {
+        "merged": "com.hi.myapplication.app-debug-71:/mipmap-hdpi_landing.png.flat",
+        "source": "com.hi.myapplication.app-main-73:/mipmap-hdpi/landing.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/drawable_flights.png.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/drawable/flights.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/drawable_exchange_rate.png.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/drawable/exchange_rate.png"
+    },
+    {
+        "merged": "com.hi.myapplication.app-debug-71:/mipmap-hdpi_landing_selected.png.flat",
+        "source": "com.hi.myapplication.app-main-73:/mipmap-hdpi/landing_selected.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-hdpi_exchange_rate.png.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-hdpi/exchange_rate.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/drawable_flights_selected.png.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/drawable/flights_selected.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/xml_backup_rules.xml.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-hdpi_flights_selected.png.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-hdpi/flights_selected.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hi.myapplication.app-debug-71:/mipmap-hdpi_take_off_selected.png.flat",
+        "source": "com.hi.myapplication.app-main-73:/mipmap-hdpi/take_off_selected.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-hdpi_exchange_rate_selected.png.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-hdpi/exchange_rate_selected.png"
+    },
+    {
+        "merged": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-debug-71:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/donghao/.gradle/daemon/8.7/com.hi.myapplication.app-main-73:/mipmap-mdpi/ic_launcher.webp"
+    }
+]

@@ -1,0 +1,693 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/donghao/.gradle/caches/transforms-4/f17c7e5882f1f825d052e64c3bf5a117/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/donghao/.gradle/caches/transforms-4/ef08df9b19efd11454a391d12e8773d1/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:hilt-android:2.51.1] /Users/donghao/.gradle/caches/transforms-4/e92b0ec8355ca208dee42a85d09eb082/transformed/hilt-android-2.51.1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/donghao/.gradle/caches/transforms-4/62dfb2e4230f1dca43ea31b7456d2235/transformed/googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b2ba03aa72d374dd7911970788968a81/transformed/credentials-1.3.0-alpha02/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/donghao/.gradle/caches/transforms-4/bbc7206565314b248b07af4417775413/transformed/coil-compose-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.6.0] /Users/donghao/.gradle/caches/transforms-4/54ba439f336e5979a761cd36bef03aeb/transformed/coil-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-gif:2.6.0] /Users/donghao/.gradle/caches/transforms-4/f552a60bc288e07f8b4b65934262ed8a/transformed/coil-gif-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5875cc703af5ee07e8b164fb9104cf9c/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/donghao/.gradle/caches/transforms-4/9cf084fe3ac76adf04d17abd709ee308/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/donghao/.gradle/caches/transforms-4/17264f900b0cd34ad130a262dcab07cf/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/donghao/.gradle/caches/transforms-4/e76140106ab9e346ed7a6cab5ec8516d/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/donghao/.gradle/caches/transforms-4/346bcd38ade0723a6813ead90c78a673/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/donghao/.gradle/caches/transforms-4/287866db27d5afce35e3e7c645a9a784/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/donghao/.gradle/caches/transforms-4/b48d124a4ffba92dc71c610d499a9438/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/donghao/.gradle/caches/transforms-4/abbcc98fa3d7f002c5f0643d4f70c18f/transformed/coil-base-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/donghao/.gradle/caches/transforms-4/6f55f7a4680f2a465bb789780a6e7824/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/donghao/.gradle/caches/transforms-4/c249a71d150431b563d9dd0125d43dc0/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/donghao/.gradle/caches/transforms-4/d008a1823721f02e02fb7bd4611e92f9/transformed/integrity-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/donghao/.gradle/caches/transforms-4/f8e734ff45b27e5157a224c0742078a1/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/donghao/.gradle/caches/transforms-4/541353ae7d1ef50613985ba83ffa48fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/donghao/.gradle/caches/transforms-4/bfb06fe806cbad7db71955a4e0de3b6a/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0-beta04] /Users/donghao/.gradle/caches/transforms-4/c3b541a85fbdb9dc44387c773a30f250/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/donghao/.gradle/caches/transforms-4/dd8a784ac4c2975a33f267977461bba1/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.loader:loader:1.1.0] /Users/donghao/.gradle/caches/transforms-4/04633ee8aa330c6dbfe7f34f42b5464a/transformed/loader-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/donghao/.gradle/caches/transforms-4/b9c48366ed487ff970710b9add52e8e9/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/donghao/.gradle/caches/transforms-4/10d5ceb5ecfd553f3a03a65159586aa7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/donghao/.gradle/caches/transforms-4/edecd233e4fae532db32126cd1d9f712/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/donghao/.gradle/caches/transforms-4/09e8b3e9e35d0db77cbd0cee99be6617/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/donghao/.gradle/caches/transforms-4/9bfccd229eced45fec6c5a865cd816cc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/donghao/.gradle/caches/transforms-4/93f5c4ddb91efceee810438affb4a175/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/cafa8170990900b0acbb39065d819faf/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/2462875c7a0aa4c2907a974f67cbd459/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/0eb29ede30794e8a9b96e4b87bb354aa/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/fdddf6d6141748e69ee70cfad642a732/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/83ca48d763e5e90e13063e4fa1fc61ed/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/32429dbbf79a4acfb71ebb96923ef916/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/595f882490eb426f7bb44c98cd273a79/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/1aa083b2063a39f30a4104ae732e9f3c/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/598607e33ed176ca5fea6c3ac9a5775d/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/donghao/.gradle/caches/transforms-4/53e6ac8e390dd0250b103f2eaccd7a72/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/donghao/.gradle/caches/transforms-4/cc54e13d491d8c0d3edc288645d1d589/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/8f1e5ab6682df0c5cad28ab6fd40ea4c/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/80abcd2dfdcb1129cd2046ae74674873/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/710e68676bdb5fa1490a675e145286be/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/042208fa1a5e3ab8b7339abd9e51dba9/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/donghao/.gradle/caches/transforms-4/93662806eef46e7c9595bba624c25583/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/donghao/.gradle/caches/transforms-4/b43e1810d4886cfcb49f1cd0ee2c557c/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/donghao/.gradle/caches/transforms-4/2586c9a0ccddba8d47a877a32f222674/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/donghao/.gradle/caches/transforms-4/e4395692b000e6c80b8fe861cf41fd2a/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/9eccb38919e3fb67242faf3a7341e08b/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] /Users/donghao/.gradle/caches/transforms-4/eeee0c9918a4bcbde908bc593a22dee3/transformed/lifecycle-viewmodel-2.8.2/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/f157c6e7009ae12f3fb2f626e75ee2c1/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/4b5537bf10266133ee0dfecd655315db/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] /Users/donghao/.gradle/caches/transforms-4/7856530b4a0315cf4540e8abf1be2269/transformed/lifecycle-viewmodel-ktx-2.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] /Users/donghao/.gradle/caches/transforms-4/8c0d2de857ca506d4a30ca1ba6d85aea/transformed/lifecycle-viewmodel-savedstate-2.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] /Users/donghao/.gradle/caches/transforms-4/eaa904e0e193703067d3ac25068aff94/transformed/lifecycle-livedata-core-2.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/db5389348671c4d466bc961a90403a33/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/6e399695d3365be7ecb80707373227c0/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/20d8d8a4183823b6f98958eff35a9b40/transformed/ui-test-manifest-1.7.0-beta02/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.9.0] /Users/donghao/.gradle/caches/transforms-4/35e7b02717ecd2ad2f32f86e6c511920/transformed/activity-1.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.0] /Users/donghao/.gradle/caches/transforms-4/0b37b98804aa4f4295ce89c2f1327190/transformed/activity-compose-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] /Users/donghao/.gradle/caches/transforms-4/c680dac491a2e4e3574a9ca1b864873d/transformed/activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d8944a878b6568e01bff3a5c75a33a22/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/a717ef708dc08d848c886cab4e8b7ede/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/3fffa7c9ec61cb0c12a23a3b475f0aea/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/3cddca4af1dc0dcd2d2a15719b66d11f/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/44fe9e069b66569b21d55b1acd2b04f5/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/ccd9f2683ed6bbd1839a265b798a1fd2/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/donghao/.gradle/caches/transforms-4/f686dc8ca443a930d190dbc6c7e23305/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/donghao/.gradle/caches/transforms-4/a5b15556a1d1872758821269faab02e5/transformed/play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/donghao/.gradle/caches/transforms-4/eab145bb66b27b8e2e1f6ee61637a41c/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/donghao/.gradle/caches/transforms-4/02d2a51c2556a45a2ce3b819293f49e0/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/donghao/.gradle/caches/transforms-4/fdde7eb0a8996224381fd141b84a8123/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/donghao/.gradle/caches/transforms-4/8839503ba72bc9c804ed8a8631f63d82/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/donghao/.gradle/caches/transforms-4/630116d2edb1062aa5ac70fafdd50ae3/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/donghao/.gradle/caches/transforms-4/8264f986a6ca0d3eb038e5980973856f/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/donghao/.gradle/caches/transforms-4/468b6e91e5a0eff40a539314e44e6876/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/donghao/.gradle/caches/transforms-4/2065e8384a61cc02f30429222a3eca2f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/donghao/.gradle/caches/transforms-4/db289c4c62c99e6a344d2a22eccd4341/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/donghao/.gradle/caches/transforms-4/929c47bf83430e354dbfe77746e0603e/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/donghao/.gradle/caches/transforms-4/312d8b470acd3c52def32fc6794ce883/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/donghao/.gradle/caches/transforms-4/a7e65d97ad7ac0a8a96a6ad6f26e2913/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/donghao/.gradle/caches/transforms-4/e2da2973fd6c6e27c64292f4def4528e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/donghao/.gradle/caches/transforms-4/bba8685d5bc4add0eb5606ed764c26ff/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] /Users/donghao/.gradle/caches/transforms-4/40bd0b330be907557517589ad7766566/transformed/dagger-lint-aar-2.51.1/AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:5:5-27:19
+INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:5:5-27:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/donghao/.gradle/caches/transforms-4/6f55f7a4680f2a465bb789780a6e7824/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/donghao/.gradle/caches/transforms-4/6f55f7a4680f2a465bb789780a6e7824/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/donghao/.gradle/caches/transforms-4/d008a1823721f02e02fb7bd4611e92f9/transformed/integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/donghao/.gradle/caches/transforms-4/d008a1823721f02e02fb7bd4611e92f9/transformed/integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/donghao/.gradle/caches/transforms-4/f8e734ff45b27e5157a224c0742078a1/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/donghao/.gradle/caches/transforms-4/f8e734ff45b27e5157a224c0742078a1/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/donghao/.gradle/caches/transforms-4/541353ae7d1ef50613985ba83ffa48fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/donghao/.gradle/caches/transforms-4/541353ae7d1ef50613985ba83ffa48fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/598607e33ed176ca5fea6c3ac9a5775d/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/598607e33ed176ca5fea6c3ac9a5775d/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/20d8d8a4183823b6f98958eff35a9b40/transformed/ui-test-manifest-1.7.0-beta02/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/20d8d8a4183823b6f98958eff35a9b40/transformed/ui-test-manifest-1.7.0-beta02/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/donghao/.gradle/caches/transforms-4/f686dc8ca443a930d190dbc6c7e23305/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/donghao/.gradle/caches/transforms-4/f686dc8ca443a930d190dbc6c7e23305/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/donghao/.gradle/caches/transforms-4/a5b15556a1d1872758821269faab02e5/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/donghao/.gradle/caches/transforms-4/a5b15556a1d1872758821269faab02e5/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/donghao/.gradle/caches/transforms-4/468b6e91e5a0eff40a539314e44e6876/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/donghao/.gradle/caches/transforms-4/468b6e91e5a0eff40a539314e44e6876/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/donghao/.gradle/caches/transforms-4/e2da2973fd6c6e27c64292f4def4528e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/donghao/.gradle/caches/transforms-4/e2da2973fd6c6e27c64292f4def4528e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:9:9-54
+	android:roundIcon
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:12:9-54
+	tools:targetApi
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:15:9-29
+	android:icon
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:14:9-51
+	android:dataExtractionRules
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:8:9-65
+	android:name
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:6:9-38
+activity#com.hi.myapplication.MainActivity
+ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:16:9-26:20
+	android:label
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:19:13-45
+	android:exported
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:18:13-36
+	android:theme
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:20:13-55
+	android:name
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml
+INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/donghao/.gradle/caches/transforms-4/f17c7e5882f1f825d052e64c3bf5a117/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/donghao/.gradle/caches/transforms-4/f17c7e5882f1f825d052e64c3bf5a117/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/donghao/.gradle/caches/transforms-4/ef08df9b19efd11454a391d12e8773d1/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/donghao/.gradle/caches/transforms-4/ef08df9b19efd11454a391d12e8773d1/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:hilt-android:2.51.1] /Users/donghao/.gradle/caches/transforms-4/e92b0ec8355ca208dee42a85d09eb082/transformed/hilt-android-2.51.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.51.1] /Users/donghao/.gradle/caches/transforms-4/e92b0ec8355ca208dee42a85d09eb082/transformed/hilt-android-2.51.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/donghao/.gradle/caches/transforms-4/62dfb2e4230f1dca43ea31b7456d2235/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/donghao/.gradle/caches/transforms-4/62dfb2e4230f1dca43ea31b7456d2235/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b2ba03aa72d374dd7911970788968a81/transformed/credentials-1.3.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b2ba03aa72d374dd7911970788968a81/transformed/credentials-1.3.0-alpha02/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/donghao/.gradle/caches/transforms-4/bbc7206565314b248b07af4417775413/transformed/coil-compose-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/donghao/.gradle/caches/transforms-4/bbc7206565314b248b07af4417775413/transformed/coil-compose-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] /Users/donghao/.gradle/caches/transforms-4/54ba439f336e5979a761cd36bef03aeb/transformed/coil-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] /Users/donghao/.gradle/caches/transforms-4/54ba439f336e5979a761cd36bef03aeb/transformed/coil-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-gif:2.6.0] /Users/donghao/.gradle/caches/transforms-4/f552a60bc288e07f8b4b65934262ed8a/transformed/coil-gif-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-gif:2.6.0] /Users/donghao/.gradle/caches/transforms-4/f552a60bc288e07f8b4b65934262ed8a/transformed/coil-gif-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5875cc703af5ee07e8b164fb9104cf9c/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5875cc703af5ee07e8b164fb9104cf9c/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/donghao/.gradle/caches/transforms-4/9cf084fe3ac76adf04d17abd709ee308/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/donghao/.gradle/caches/transforms-4/9cf084fe3ac76adf04d17abd709ee308/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/donghao/.gradle/caches/transforms-4/17264f900b0cd34ad130a262dcab07cf/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/donghao/.gradle/caches/transforms-4/17264f900b0cd34ad130a262dcab07cf/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/donghao/.gradle/caches/transforms-4/e76140106ab9e346ed7a6cab5ec8516d/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/donghao/.gradle/caches/transforms-4/e76140106ab9e346ed7a6cab5ec8516d/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/donghao/.gradle/caches/transforms-4/346bcd38ade0723a6813ead90c78a673/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/donghao/.gradle/caches/transforms-4/346bcd38ade0723a6813ead90c78a673/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/donghao/.gradle/caches/transforms-4/287866db27d5afce35e3e7c645a9a784/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/donghao/.gradle/caches/transforms-4/287866db27d5afce35e3e7c645a9a784/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/donghao/.gradle/caches/transforms-4/b48d124a4ffba92dc71c610d499a9438/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/donghao/.gradle/caches/transforms-4/b48d124a4ffba92dc71c610d499a9438/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/donghao/.gradle/caches/transforms-4/abbcc98fa3d7f002c5f0643d4f70c18f/transformed/coil-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/donghao/.gradle/caches/transforms-4/abbcc98fa3d7f002c5f0643d4f70c18f/transformed/coil-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/donghao/.gradle/caches/transforms-4/6f55f7a4680f2a465bb789780a6e7824/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/donghao/.gradle/caches/transforms-4/6f55f7a4680f2a465bb789780a6e7824/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/donghao/.gradle/caches/transforms-4/c249a71d150431b563d9dd0125d43dc0/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/donghao/.gradle/caches/transforms-4/c249a71d150431b563d9dd0125d43dc0/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/donghao/.gradle/caches/transforms-4/d008a1823721f02e02fb7bd4611e92f9/transformed/integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/donghao/.gradle/caches/transforms-4/d008a1823721f02e02fb7bd4611e92f9/transformed/integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/donghao/.gradle/caches/transforms-4/f8e734ff45b27e5157a224c0742078a1/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/donghao/.gradle/caches/transforms-4/f8e734ff45b27e5157a224c0742078a1/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/donghao/.gradle/caches/transforms-4/541353ae7d1ef50613985ba83ffa48fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/donghao/.gradle/caches/transforms-4/541353ae7d1ef50613985ba83ffa48fc/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/donghao/.gradle/caches/transforms-4/bfb06fe806cbad7db71955a4e0de3b6a/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/donghao/.gradle/caches/transforms-4/bfb06fe806cbad7db71955a4e0de3b6a/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.compose.material3:material3-android:1.3.0-beta04] /Users/donghao/.gradle/caches/transforms-4/c3b541a85fbdb9dc44387c773a30f250/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0-beta04] /Users/donghao/.gradle/caches/transforms-4/c3b541a85fbdb9dc44387c773a30f250/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/donghao/.gradle/caches/transforms-4/dd8a784ac4c2975a33f267977461bba1/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/donghao/.gradle/caches/transforms-4/dd8a784ac4c2975a33f267977461bba1/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.loader:loader:1.1.0] /Users/donghao/.gradle/caches/transforms-4/04633ee8aa330c6dbfe7f34f42b5464a/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] /Users/donghao/.gradle/caches/transforms-4/04633ee8aa330c6dbfe7f34f42b5464a/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/donghao/.gradle/caches/transforms-4/b9c48366ed487ff970710b9add52e8e9/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/donghao/.gradle/caches/transforms-4/b9c48366ed487ff970710b9add52e8e9/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/donghao/.gradle/caches/transforms-4/10d5ceb5ecfd553f3a03a65159586aa7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/donghao/.gradle/caches/transforms-4/10d5ceb5ecfd553f3a03a65159586aa7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/donghao/.gradle/caches/transforms-4/edecd233e4fae532db32126cd1d9f712/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/donghao/.gradle/caches/transforms-4/edecd233e4fae532db32126cd1d9f712/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/donghao/.gradle/caches/transforms-4/09e8b3e9e35d0db77cbd0cee99be6617/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/donghao/.gradle/caches/transforms-4/09e8b3e9e35d0db77cbd0cee99be6617/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/donghao/.gradle/caches/transforms-4/9bfccd229eced45fec6c5a865cd816cc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/donghao/.gradle/caches/transforms-4/9bfccd229eced45fec6c5a865cd816cc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/donghao/.gradle/caches/transforms-4/93f5c4ddb91efceee810438affb4a175/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/donghao/.gradle/caches/transforms-4/93f5c4ddb91efceee810438affb4a175/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/cafa8170990900b0acbb39065d819faf/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/cafa8170990900b0acbb39065d819faf/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/2462875c7a0aa4c2907a974f67cbd459/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/2462875c7a0aa4c2907a974f67cbd459/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/0eb29ede30794e8a9b96e4b87bb354aa/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/0eb29ede30794e8a9b96e4b87bb354aa/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/fdddf6d6141748e69ee70cfad642a732/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/fdddf6d6141748e69ee70cfad642a732/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/83ca48d763e5e90e13063e4fa1fc61ed/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/83ca48d763e5e90e13063e4fa1fc61ed/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/32429dbbf79a4acfb71ebb96923ef916/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/32429dbbf79a4acfb71ebb96923ef916/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/595f882490eb426f7bb44c98cd273a79/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/595f882490eb426f7bb44c98cd273a79/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/1aa083b2063a39f30a4104ae732e9f3c/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/1aa083b2063a39f30a4104ae732e9f3c/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/598607e33ed176ca5fea6c3ac9a5775d/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/598607e33ed176ca5fea6c3ac9a5775d/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/donghao/.gradle/caches/transforms-4/53e6ac8e390dd0250b103f2eaccd7a72/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/donghao/.gradle/caches/transforms-4/53e6ac8e390dd0250b103f2eaccd7a72/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/donghao/.gradle/caches/transforms-4/cc54e13d491d8c0d3edc288645d1d589/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/donghao/.gradle/caches/transforms-4/cc54e13d491d8c0d3edc288645d1d589/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/8f1e5ab6682df0c5cad28ab6fd40ea4c/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/8f1e5ab6682df0c5cad28ab6fd40ea4c/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/80abcd2dfdcb1129cd2046ae74674873/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/80abcd2dfdcb1129cd2046ae74674873/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/710e68676bdb5fa1490a675e145286be/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/710e68676bdb5fa1490a675e145286be/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/042208fa1a5e3ab8b7339abd9e51dba9/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/042208fa1a5e3ab8b7339abd9e51dba9/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/donghao/.gradle/caches/transforms-4/93662806eef46e7c9595bba624c25583/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/donghao/.gradle/caches/transforms-4/93662806eef46e7c9595bba624c25583/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/donghao/.gradle/caches/transforms-4/b43e1810d4886cfcb49f1cd0ee2c557c/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/donghao/.gradle/caches/transforms-4/b43e1810d4886cfcb49f1cd0ee2c557c/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/donghao/.gradle/caches/transforms-4/2586c9a0ccddba8d47a877a32f222674/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/donghao/.gradle/caches/transforms-4/2586c9a0ccddba8d47a877a32f222674/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/donghao/.gradle/caches/transforms-4/e4395692b000e6c80b8fe861cf41fd2a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/donghao/.gradle/caches/transforms-4/e4395692b000e6c80b8fe861cf41fd2a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/9eccb38919e3fb67242faf3a7341e08b/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/9eccb38919e3fb67242faf3a7341e08b/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] /Users/donghao/.gradle/caches/transforms-4/eeee0c9918a4bcbde908bc593a22dee3/transformed/lifecycle-viewmodel-2.8.2/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.2] /Users/donghao/.gradle/caches/transforms-4/eeee0c9918a4bcbde908bc593a22dee3/transformed/lifecycle-viewmodel-2.8.2/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/f157c6e7009ae12f3fb2f626e75ee2c1/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/f157c6e7009ae12f3fb2f626e75ee2c1/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/4b5537bf10266133ee0dfecd655315db/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/4b5537bf10266133ee0dfecd655315db/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] /Users/donghao/.gradle/caches/transforms-4/7856530b4a0315cf4540e8abf1be2269/transformed/lifecycle-viewmodel-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2] /Users/donghao/.gradle/caches/transforms-4/7856530b4a0315cf4540e8abf1be2269/transformed/lifecycle-viewmodel-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] /Users/donghao/.gradle/caches/transforms-4/8c0d2de857ca506d4a30ca1ba6d85aea/transformed/lifecycle-viewmodel-savedstate-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.2] /Users/donghao/.gradle/caches/transforms-4/8c0d2de857ca506d4a30ca1ba6d85aea/transformed/lifecycle-viewmodel-savedstate-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] /Users/donghao/.gradle/caches/transforms-4/eaa904e0e193703067d3ac25068aff94/transformed/lifecycle-livedata-core-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.2] /Users/donghao/.gradle/caches/transforms-4/eaa904e0e193703067d3ac25068aff94/transformed/lifecycle-livedata-core-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/db5389348671c4d466bc961a90403a33/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/db5389348671c4d466bc961a90403a33/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/6e399695d3365be7ecb80707373227c0/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/6e399695d3365be7ecb80707373227c0/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/20d8d8a4183823b6f98958eff35a9b40/transformed/ui-test-manifest-1.7.0-beta02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/20d8d8a4183823b6f98958eff35a9b40/transformed/ui-test-manifest-1.7.0-beta02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] /Users/donghao/.gradle/caches/transforms-4/35e7b02717ecd2ad2f32f86e6c511920/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] /Users/donghao/.gradle/caches/transforms-4/35e7b02717ecd2ad2f32f86e6c511920/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /Users/donghao/.gradle/caches/transforms-4/0b37b98804aa4f4295ce89c2f1327190/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /Users/donghao/.gradle/caches/transforms-4/0b37b98804aa4f4295ce89c2f1327190/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /Users/donghao/.gradle/caches/transforms-4/c680dac491a2e4e3574a9ca1b864873d/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /Users/donghao/.gradle/caches/transforms-4/c680dac491a2e4e3574a9ca1b864873d/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d8944a878b6568e01bff3a5c75a33a22/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d8944a878b6568e01bff3a5c75a33a22/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/a717ef708dc08d848c886cab4e8b7ede/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/a717ef708dc08d848c886cab4e8b7ede/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/3fffa7c9ec61cb0c12a23a3b475f0aea/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/3fffa7c9ec61cb0c12a23a3b475f0aea/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/3cddca4af1dc0dcd2d2a15719b66d11f/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/3cddca4af1dc0dcd2d2a15719b66d11f/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/44fe9e069b66569b21d55b1acd2b04f5/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/44fe9e069b66569b21d55b1acd2b04f5/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/ccd9f2683ed6bbd1839a265b798a1fd2/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/donghao/.gradle/caches/transforms-4/ccd9f2683ed6bbd1839a265b798a1fd2/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/donghao/.gradle/caches/transforms-4/f686dc8ca443a930d190dbc6c7e23305/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/donghao/.gradle/caches/transforms-4/f686dc8ca443a930d190dbc6c7e23305/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/donghao/.gradle/caches/transforms-4/a5b15556a1d1872758821269faab02e5/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/donghao/.gradle/caches/transforms-4/a5b15556a1d1872758821269faab02e5/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/donghao/.gradle/caches/transforms-4/eab145bb66b27b8e2e1f6ee61637a41c/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/donghao/.gradle/caches/transforms-4/eab145bb66b27b8e2e1f6ee61637a41c/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/donghao/.gradle/caches/transforms-4/02d2a51c2556a45a2ce3b819293f49e0/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/donghao/.gradle/caches/transforms-4/02d2a51c2556a45a2ce3b819293f49e0/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/donghao/.gradle/caches/transforms-4/fdde7eb0a8996224381fd141b84a8123/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/donghao/.gradle/caches/transforms-4/fdde7eb0a8996224381fd141b84a8123/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/donghao/.gradle/caches/transforms-4/8839503ba72bc9c804ed8a8631f63d82/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/donghao/.gradle/caches/transforms-4/8839503ba72bc9c804ed8a8631f63d82/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/donghao/.gradle/caches/transforms-4/630116d2edb1062aa5ac70fafdd50ae3/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/donghao/.gradle/caches/transforms-4/630116d2edb1062aa5ac70fafdd50ae3/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/donghao/.gradle/caches/transforms-4/8264f986a6ca0d3eb038e5980973856f/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/donghao/.gradle/caches/transforms-4/8264f986a6ca0d3eb038e5980973856f/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/donghao/.gradle/caches/transforms-4/468b6e91e5a0eff40a539314e44e6876/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/donghao/.gradle/caches/transforms-4/468b6e91e5a0eff40a539314e44e6876/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/donghao/.gradle/caches/transforms-4/2065e8384a61cc02f30429222a3eca2f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/donghao/.gradle/caches/transforms-4/2065e8384a61cc02f30429222a3eca2f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/donghao/.gradle/caches/transforms-4/db289c4c62c99e6a344d2a22eccd4341/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/donghao/.gradle/caches/transforms-4/db289c4c62c99e6a344d2a22eccd4341/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/donghao/.gradle/caches/transforms-4/929c47bf83430e354dbfe77746e0603e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/donghao/.gradle/caches/transforms-4/929c47bf83430e354dbfe77746e0603e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/donghao/.gradle/caches/transforms-4/312d8b470acd3c52def32fc6794ce883/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/donghao/.gradle/caches/transforms-4/312d8b470acd3c52def32fc6794ce883/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/donghao/.gradle/caches/transforms-4/a7e65d97ad7ac0a8a96a6ad6f26e2913/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/donghao/.gradle/caches/transforms-4/a7e65d97ad7ac0a8a96a6ad6f26e2913/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/donghao/.gradle/caches/transforms-4/e2da2973fd6c6e27c64292f4def4528e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/donghao/.gradle/caches/transforms-4/e2da2973fd6c6e27c64292f4def4528e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/donghao/.gradle/caches/transforms-4/bba8685d5bc4add0eb5606ed764c26ff/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/donghao/.gradle/caches/transforms-4/bba8685d5bc4add0eb5606ed764c26ff/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] /Users/donghao/.gradle/caches/transforms-4/40bd0b330be907557517589ad7766566/transformed/dagger-lint-aar-2.51.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] /Users/donghao/.gradle/caches/transforms-4/40bd0b330be907557517589ad7766566/transformed/dagger-lint-aar-2.51.1/AndroidManifest.xml:18:3-42
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/donghao/AndroidStudioProjects/MyApplication8/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:25:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/donghao/.gradle/caches/transforms-4/71c21597d48165692528d9792e1a909f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-alpha02] /Users/donghao/.gradle/caches/transforms-4/b86282c60791128d0473573271dcefa9/transformed/credentials-play-services-auth-1.3.0-alpha02/AndroidManifest.xml:35:13-76
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/donghao/.gradle/caches/transforms-4/5f9699fa2920f48592f03457ee2c11ad/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] /Users/donghao/.gradle/caches/transforms-4/254d6ec854935d8a5bc76aee9d5ccb40/transformed/play-services-auth-21.2.0/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/donghao/.gradle/caches/transforms-4/a4d30b0432f3dfe9ca12da52fbc873bb/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/donghao/.gradle/caches/transforms-4/407d12e3c73ccbed7062257c143b11b1/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/donghao/.gradle/caches/transforms-4/05ea07f98837fe47c341d9039deee6d1/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /Users/donghao/.gradle/caches/transforms-4/2270f2730db38d87035dc40949f064b2/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/598607e33ed176ca5fea6c3ac9a5775d/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/598607e33ed176ca5fea6c3ac9a5775d/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/598607e33ed176ca5fea6c3ac9a5775d/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/donghao/.gradle/caches/transforms-4/e2da2973fd6c6e27c64292f4def4528e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/donghao/.gradle/caches/transforms-4/e2da2973fd6c6e27c64292f4def4528e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/donghao/.gradle/caches/transforms-4/80547d9df38b8fbc5a3fb38953ccea4a/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.hi.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.hi.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/donghao/.gradle/caches/transforms-4/aaecb76d76e6dff53e0f4b3e3d726e36/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.2] /Users/donghao/.gradle/caches/transforms-4/d0d71684f34ebedd64aecd448a23c888/transformed/lifecycle-process-2.8.2/AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/20d8d8a4183823b6f98958eff35a9b40/transformed/ui-test-manifest-1.7.0-beta02/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/20d8d8a4183823b6f98958eff35a9b40/transformed/ui-test-manifest-1.7.0-beta02/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0-beta02] /Users/donghao/.gradle/caches/transforms-4/20d8d8a4183823b6f98958eff35a9b40/transformed/ui-test-manifest-1.7.0-beta02/AndroidManifest.xml:24:13-63
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/donghao/.gradle/caches/transforms-4/a5b15556a1d1872758821269faab02e5/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/donghao/.gradle/caches/transforms-4/a5b15556a1d1872758821269faab02e5/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/donghao/.gradle/caches/transforms-4/a5b15556a1d1872758821269faab02e5/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/donghao/.gradle/caches/transforms-4/37191fc6565ff1dcd3435041a727481e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
