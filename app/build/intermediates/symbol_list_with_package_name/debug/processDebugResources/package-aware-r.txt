@@ -331,6 +331,7 @@ string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string in_progress
 string indeterminate
+string look_ui
 string m3c_bottom_sheet_collapse_description
 string m3c_bottom_sheet_dismiss_description
 string m3c_bottom_sheet_drag_handle_description
@@ -400,7 +401,6 @@ string status_bar_notification_info_overflow
 string switch_role
 string tab
 string template_percent
-string test
 string tooltip_description
 string tooltip_label
 style DialogWindowTheme

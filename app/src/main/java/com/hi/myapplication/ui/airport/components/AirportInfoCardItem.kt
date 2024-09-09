@@ -26,13 +26,14 @@ import com.hi.myapplication.domain.airport.model.AirportInfoItem
 
 @Composable
 fun AirportInfoItem(data: AirportInfoItem, string: String) {
-     //U起飛 沒有登機門當作有效資料
-     //D降落 有登機門當作有效資料
-     //L 用來預覽
+    //U起飛 沒有登機門當作有效資料
+    //D降落 有登機門當作有效資料
+    //L 用來預覽
     if (((string == "U") and (data.airBoardingGate == "")) or
         ((string == "D") and (data.airBoardingGate != "")) or
         (string == "L")
     ) {
+        Spacer(modifier = Modifier.padding(4.dp))
 
         Card(
             modifier = Modifier
@@ -52,37 +53,9 @@ fun AirportInfoItem(data: AirportInfoItem, string: String) {
             ) {
                 Column(Modifier.weight(1.0f)) {
                     Row {
-                        Column(modifier = Modifier.weight(1.0f)) {
-                            Text(
-                                text = "預計時間",
-                                textAlign = TextAlign.Center,
-                                modifier = Modifier.fillMaxWidth()
-                            )
-                            Spacer(modifier = Modifier.padding(4.dp))
-                            data.expectTime?.let {
-                                Text(
-                                    text = it,
-                                    textAlign = TextAlign.Center,
-                                    modifier = Modifier.fillMaxWidth()
-                                )
-                            }
-                        }
+                        Time("預估時間", data.expectTime, modifier = Modifier.weight(1.0f))
                         Spacer(modifier = Modifier.padding(8.dp))
-                        Column(modifier = Modifier.weight(1.0f)) {
-                            Text(
-                                text = "實際時間",
-                                textAlign = TextAlign.Center,
-                                modifier = Modifier.fillMaxWidth()
-                            )
-                            Spacer(modifier = Modifier.padding(4.dp))
-                            data.realTime?.let {
-                                Text(
-                                    text = it,
-                                    textAlign = TextAlign.Center,
-                                    modifier = Modifier.fillMaxWidth()
-                                )
-                            }
-                        }
+                        Time("實際時間", data.realTime, modifier = Modifier.weight(1.0f))
                     }
                     Spacer(modifier = Modifier.padding(8.dp))
                     Text(
@@ -108,67 +81,115 @@ fun AirportInfoItem(data: AirportInfoItem, string: String) {
                 Column(
                     Modifier.weight(1.0f)
                 ) {
-                    data.upAirportCode?.let {
-                        Text(
-                            text = if (data.airBoardingGate == "") {
-                                it
-                            } else
-                                "TPE",
-                            textAlign = TextAlign.Center,
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                    }
-                    Spacer(modifier = Modifier.padding(4.dp))
-                    data.upAirportName?.let {
-                        Text(
-                            text = if (data.airBoardingGate == "") {
-                                it
-                            } else
-                                "台北桃園國際機場",
-                            textAlign = TextAlign.Center,
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                    }
-                    Spacer(modifier = Modifier.padding(8.dp))
-                    Text(
-                        text = "|",
-                        textAlign = TextAlign.Center,
-                        modifier = Modifier.fillMaxWidth()
+                    Airport(
+                        if (data.airBoardingGate.toString() == "") {
+                            "U"
+                        } else {
+                            "D"
+                        },
+                        data.upAirportCode,
+                        data.upAirportName
                     )
-                    Spacer(modifier = Modifier.padding(8.dp))
-                    data.upAirportCode?.let {
-                        Text(
-                            text = if (data.airBoardingGate == "") {
-                                "TPE"
-                            } else
-                                it,
-                            textAlign = TextAlign.Center,
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                    }
-                    Spacer(modifier = Modifier.padding(4.dp))
-                    data.upAirportName?.let {
-                        Text(
-                            text = if (data.airBoardingGate == "") {
-                                "台北桃園國際機場"
-                            } else
-                                it,
-                            textAlign = TextAlign.Center,
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                    }
                 }
             }
         }
-    } else {
-        Card() {}
-    }
 
+        Spacer(modifier = Modifier.padding(4.dp))
+    }
+}
+
+
+@Composable
+fun Time(title: String, value: String?, modifier: Modifier) {
+    Column(modifier) {
+        Text(
+            text = title,
+            textAlign = TextAlign.Center,
+            modifier = Modifier.fillMaxWidth()
+        )
+        Spacer(modifier = Modifier.padding(4.dp))
+        value?.let {
+            Text(
+                text = it,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth()
+            )
+        }
+    }
+}
+
+@Composable
+fun Airport(T: String, Code: String?, Name: String?) {
+    if (T == "U") {
+        AirportDefault()
+
+        Spacer(modifier = Modifier.padding(8.dp))
+
+        Text(
+            text = "|",
+            textAlign = TextAlign.Center,
+            modifier = Modifier.fillMaxWidth()
+        )
+
+        Spacer(modifier = Modifier.padding(8.dp))
+
+        AirportValue(Code, Name)
+
+    } else {
+        AirportValue(Code, Name)
+
+        Spacer(modifier = Modifier.padding(8.dp))
+
+        Text(
+            text = "|",
+            textAlign = TextAlign.Center,
+            modifier = Modifier.fillMaxWidth()
+        )
+
+        Spacer(modifier = Modifier.padding(8.dp))
+
+        AirportDefault()
+
+    }
+}
+
+@Composable
+fun AirportDefault() {
+    Text(
+        "TPE",
+        textAlign = TextAlign.Center,
+        modifier = Modifier.fillMaxWidth()
+    )
+
+    Spacer(modifier = Modifier.padding(4.dp))
+
+    Text(
+        "台北桃園國際機場",
+        textAlign = TextAlign.Center,
+        modifier = Modifier.fillMaxWidth()
+    )
+}
+
+@Composable
+fun AirportValue(Code: String?, Name: String?) {
+    Text(
+        Code.toString(),
+        textAlign = TextAlign.Center,
+        modifier = Modifier.fillMaxWidth()
+    )
+
+    Spacer(modifier = Modifier.padding(4.dp))
+
+    Text(
+        Name.toString(),
+        textAlign = TextAlign.Center,
+        modifier = Modifier.fillMaxWidth()
+    )
 }
 
 
 @Preview
 @Composable
-private fun Test() {
+private fun LookUi() {
     AirportInfoItem(AirportInfoItem(), "L")
 }

@@ -1,6 +1,6 @@
 //網路中介
 
-package com.hi.myapplication._di
+package com.hi.myapplication.module
 
 import com.hi.myapplication.data.exchange.RateApiService
 import com.hi.myapplication.data.exchange.RateRetrofitInstance

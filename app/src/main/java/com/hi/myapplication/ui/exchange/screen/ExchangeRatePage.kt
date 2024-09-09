@@ -57,6 +57,9 @@ fun ExchangeRatePage(model: ExchangeRateViewModel = hiltViewModel()) {
         state = lazyListState,
         modifier = Modifier.padding(16.dp)
     ) {
+        item {
+            Spacer(modifier = Modifier.padding(10.dp))
+        }
         items(allRateName) {
             Card(
                 modifier = Modifier

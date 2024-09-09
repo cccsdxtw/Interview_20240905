@@ -1,7 +1,7 @@
 package com.hi.myapplication;
 
-import com.hi.myapplication._di.AppModule;
-import com.hi.myapplication._di.NetworkModule;
+import com.hi.myapplication.module.AppModule;
+import com.hi.myapplication.module.NetworkModule;
 import com.hi.myapplication.ui.airport.AirportInfoViewModel_HiltModules;
 import com.hi.myapplication.ui.exchange.ExchangeRateViewModel_HiltModules;
 import dagger.Binds;

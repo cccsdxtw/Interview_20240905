@@ -173,6 +173,7 @@
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
+    <string name="look_ui">ooo</string>
     <string name="m3c_bottom_sheet_collapse_description">Collapse bottom sheet</string>
     <string name="m3c_bottom_sheet_dismiss_description">Dismiss bottom sheet</string>
     <string name="m3c_bottom_sheet_drag_handle_description">Drag handle</string>
@@ -246,7 +247,6 @@
     <string name="switch_role">Switch</string>
     <string name="tab">Tab</string>
     <string name="template_percent"><ns1:g id="percentage">%1$d</ns1:g> percent.</string>
-    <string name="test">ooo</string>
     <string name="tooltip_description">tooltip</string>
     <string name="tooltip_label">show tooltip</string>
     <style name="DialogWindowTheme">

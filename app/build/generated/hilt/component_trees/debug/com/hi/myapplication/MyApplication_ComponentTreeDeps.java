@@ -19,8 +19,8 @@ import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_andro
 import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_components_SingletonComponent;
 import hilt_aggregated_deps._com_hi_myapplication_MainActivity_GeneratedInjector;
 import hilt_aggregated_deps._com_hi_myapplication_MyApplication_GeneratedInjector;
-import hilt_aggregated_deps._com_hi_myapplication__di_AppModule;
-import hilt_aggregated_deps._com_hi_myapplication__di_NetworkModule;
+import hilt_aggregated_deps._com_hi_myapplication_module_AppModule;
+import hilt_aggregated_deps._com_hi_myapplication_module_NetworkModule;
 import hilt_aggregated_deps._com_hi_myapplication_ui_airport_AirportInfoViewModel_HiltModules_BindsModule;
 import hilt_aggregated_deps._com_hi_myapplication_ui_airport_AirportInfoViewModel_HiltModules_KeyModule;
 import hilt_aggregated_deps._com_hi_myapplication_ui_exchange_ExchangeRateViewModel_HiltModules_BindsModule;
@@ -67,8 +67,8 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
     aggregatedDeps = {
         _com_hi_myapplication_MainActivity_GeneratedInjector.class,
         _com_hi_myapplication_MyApplication_GeneratedInjector.class,
-        _com_hi_myapplication__di_AppModule.class,
-        _com_hi_myapplication__di_NetworkModule.class,
+        _com_hi_myapplication_module_AppModule.class,
+        _com_hi_myapplication_module_NetworkModule.class,
         _com_hi_myapplication_ui_airport_AirportInfoViewModel_HiltModules_BindsModule.class,
         _com_hi_myapplication_ui_airport_AirportInfoViewModel_HiltModules_KeyModule.class,
         _com_hi_myapplication_ui_exchange_ExchangeRateViewModel_HiltModules_BindsModule.class,

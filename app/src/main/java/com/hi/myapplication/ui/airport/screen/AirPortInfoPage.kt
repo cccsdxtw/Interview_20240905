@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Arrangement.Absolute.Center
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -44,7 +45,7 @@ fun AirportInfoPage() {
     var indexindex by remember { mutableStateOf(0) }
 
     Column {
-        Box(modifier = Modifier.padding( 0.dp)) {
+        Box(modifier = Modifier.padding(0.dp)) {
             //上面的選取框
             TabRow(selectedTabIndex = pagerState.currentPage) {
                 val tabs = listOf("起飛班機", "抵達班機")
@@ -72,7 +73,7 @@ fun AirportInfoPage() {
                                 //點擊交換顏色
                                 color = if (indexindex == index) {
                                     MaterialTheme.colorScheme.primary
-                                } else  MaterialTheme.colorScheme.secondary
+                                } else MaterialTheme.colorScheme.secondary
                             )
 
                         }
@@ -121,17 +122,17 @@ fun allIcon(page: Int): Painter {
 @Composable
 fun ArrivalFlightPage(model: AirportInfoViewModel) {
     //抵達
-    BaseFlightPage(viewModel = model,"D")
+    BaseFlightPage(viewModel = model, "D")
 }
 
 @Composable
 fun DepartingFlightPage(model: AirportInfoViewModel) {
     //起飛
-    BaseFlightPage(viewModel = model,"U")
+    BaseFlightPage(viewModel = model, "U")
 }
 
 @Preview
 @Composable
-private fun Test() {
+private fun LookUI() {
     AirportInfoPage()
 }

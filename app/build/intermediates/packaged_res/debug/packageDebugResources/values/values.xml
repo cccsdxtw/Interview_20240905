@@ -16,6 +16,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">My Application</string>
-    <string name="test">ooo</string>
+    <string name="look_ui">ooo</string>
     <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

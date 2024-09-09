@@ -28,7 +28,7 @@ mipmap landing_selected
 mipmap take_off
 mipmap take_off_selected
 string app_name
-string test
+string look_ui
 style Theme.MyApplication
 xml backup_rules
 xml data_extraction_rules
