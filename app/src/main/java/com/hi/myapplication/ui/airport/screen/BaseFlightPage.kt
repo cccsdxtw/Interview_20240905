@@ -2,7 +2,10 @@
 
 package com.hi.myapplication.ui.airport.screen
 
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -48,6 +51,7 @@ fun BaseFlightPage(viewModel: AirportInfoViewModel, string: String) {
         }
     ) {
         LazyColumn(
+            modifier = Modifier.fillMaxSize(),
         ) {
             if (!refreshState.value) {
                 if (data.value.isNotEmpty()) {
