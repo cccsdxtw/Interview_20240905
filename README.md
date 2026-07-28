@@ -1,4 +1,4 @@
-# Interview_20240905
+# cathaybk_test_flightAndExchangeRates (20240905)
 
 航班與匯率查詢 App。底部導航切換「航班」與「匯率」兩大功能：航班以示範班表資料呈現起飛／抵達資訊；匯率串接 [FreeCurrencyAPI](https://freecurrencyapi.com/)，並內建計算機做多幣別換算。以 Jetpack Compose 實作，架構為 MVVM + Hilt。
 
